@@ -1,0 +1,18 @@
+paths:
+  static: public
+  uploads: public/uploads
+timezone: Europe/Paris
+markdown:
+  engine: commonmark
+  options:
+    gfm: true
+collections_config:
+  pages:
+    path: src/pages
+    icon: wysiwyg
+  data:
+    path: src/data
+    icon: data_usage
+  docs:
+    path: docs
+    icon: docs
